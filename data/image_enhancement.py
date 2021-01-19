@@ -20,9 +20,9 @@ def get_file_content(filePath):
 
 # 对比度增强
 def contrastEnhance(img_path, img_enhancement_path):
-    APP_ID = '23412451'
-    API_KEY = 'lWe6tLuOlH9cwXT0eMG7W2RE'
-    SECRET_KEY = 'hckl7PHNTxfDukkZZv4eIQuYWAeyS454'
+    APP_ID = ''
+    API_KEY = ''
+    SECRET_KEY = ''
     client = AipImageProcess(APP_ID, API_KEY, SECRET_KEY)
 
     image = get_file_content(img_path)
